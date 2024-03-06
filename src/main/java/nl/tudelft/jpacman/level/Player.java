@@ -76,11 +76,10 @@ public class Player extends Unit {
         if (isAlive) {
             deathSprite.setAnimating(false);
             this.killer = null;
-        }
-        if (!isAlive) {
+        } else {
             deathSprite.restart();
         }
-        this.alive = isAlive;
+        alive = isAlive;
     }
 
     /**
