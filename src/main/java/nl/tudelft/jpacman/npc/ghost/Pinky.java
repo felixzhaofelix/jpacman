@@ -110,19 +110,5 @@ public class Pinky extends Ghost {
      * the ghost is shut in by inaccessible squares.
      */
     //Felix Zhao : extraction de la methode randomMove() de la classe Ghost
-//    @Override
-//    protected Direction randomMove() {
-//        Square square = getSquare();
-//        List<Direction> directions = new ArrayList<>();
-//        for (Direction direction : Direction.values()) {
-//            if (square.getSquareAt(direction).isAccessibleTo(this)) {
-//                directions.add(direction);
-//            }
-//        }
-//        if (directions.isEmpty()) {
-//            return null;
-//        }
-//        int i = new Random().nextInt(directions.size());
-//        return directions.get(i);
-//    }
+
 }
